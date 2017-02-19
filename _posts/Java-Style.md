@@ -7,7 +7,7 @@ tags: [Java,基础,技术]
 ---
 
 
-<!-- 更多 -->
+<!-- more -->
 
 
 ![IntelliJ IDEA](http://img.youmeek.com/2016/java-style.jpg)

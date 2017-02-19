@@ -1,38 +1,37 @@
 ---
 title: Hello World
+date: 2017-1-01 12:59:47
+description: "作为一名程序员，第一篇博客那必须是HelloWorld。</br>第一篇博客想介绍下自己搭建这个博客的用途，以及该博客搭建的框架及技术，最后说一下关于博客这块以后的建设。"
+categories: [开始篇]
+tags: [Hexo,Node.js,Bootstrap]
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+<!-- more -->
 
-## Quick Start
+![HelloWorld](http://olmkayhqc.bkt.clouddn.com/world.jpg)
 
-### Create a new post
 
-``` bash
-$ hexo new "My New Post"
-```
+## 关于博客
 
-More info: [Writing](https://hexo.io/docs/writing.html)
+### 搭建一个自己博客的想法
 
-### Run server
+- 其实在老早以前自己就有搭建一个自己博客的想法，中途也搭建尝试自己动手操作过，但是好几次都半途而废了。
+在这期间主要的原因是自己平时没有那么多的时间，这也许跟我自己的想法有关系，原先我认为搭建一个博客就类似于开发一套管理系统，要有前台页面，后台管理...
+- 我本身是做Java后端开发的，虽然说在实际的项目中大部分都是Web项目，但是要我自己真正的写一套前台页面，对我来说真的是很难。
+- 我也从网站找过很多的博客类模板，并自己动手开发过，花了不少的时间，时间越久，发现很多都是不符合自己的想法的。这时我意识到之前的想法错了，或者说过于陈旧了。
 
-``` bash
-$ hexo server
-```
+### WordPress
+- 再后来自己动手搭过很出名的[WordPress](https://cn.wordpress.org/)博客系统，[WordPress](https://cn.wordpress.org/)是基于`PHP`开发的。
+期间还研究了一段时间的`PHP`，搭好过后换着主题玩了一段时间，后来想二次开发一些自己的东西，但是无从下手啊.....于是这个就没再玩了...
 
-More info: [Server](https://hexo.io/docs/server.html)
+### Solo
+- [Solo](https://github.com/b3log/solo)这个词儿肯定很熟悉，当然了不是LOL里面的solo，这个一个完全开源的Java博客系统，在GitHub上找一下就知道，
+Solo 是目前 GitHub 上关注度最高的 Java 开源博客系统，在GitHub上是start最多的。clone下来用着还真算不错。后来在里面发现一款主题，和我现在博客使用的很像。
+顺藤摸瓜，于是有了现在的这套博客系统....
 
-### Generate static files
+### Hexo
+- Hexo 的中文官网：http://hexo.io/zh-cn/
+- 官网的介绍是这样的：
+> Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。
+- 当我打开官网的文档查阅后，我觉得很有搞头，于是马上动手搞起来......
 
-``` bash
-$ hexo generate
-```
-
-More info: [Generating](https://hexo.io/docs/generating.html)
-
-### Deploy to remote sites
-
-``` bash
-$ hexo deploy
-```
-
-More info: [Deployment](https://hexo.io/docs/deployment.html)
+## 动手干活
