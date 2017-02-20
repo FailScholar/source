@@ -18,10 +18,29 @@ tags: [Thymeleaf,Spring,Spring Boot]
 ![曾经学习的历史记录](http://olmkayhqc.bkt.clouddn.com/thyemeleafhistory.png)
 
 ###  没好印象，我甩了她
-- 可以看到我放弃了它，选择了我熟悉的 `Freemarker`
+- 可以看到我放弃了它，选择了我熟悉的 `Freemarker`（不要问我为什么不选择JSP）
 
 ##  重逢篇
 
 ### 相遇在spring
 
-- ``Spring``一直
+- ``Spring``一直都是我崇尚和追求的项目，没事都会翻翻`Spring`的文档查阅查阅
+- 无意中我发现`Spring`的官方文档，很多都是用`Thymeleaf`渲染的，这使我重新提起了兴趣
+
+## 交往篇
+
+### 决定重新尝试交往
+- 我决定重新学习一下
+
+### 深入了解
+- `Thymeleaf` 官网: http://www.thymeleaf.org/
+- `Thymeleaf`是一个页面模板，类似于`Freemarker`、`Velocity`等，但`Thymeleaf`可以在服务器环境和静态环境下都能正常运行的页面模板，深受前后端分离开发的团队人员的青睐。
+- `Thymeleaf`的数据展现全部通过以th:开头的html自定义标签来完成。当运行在服务器环境时将会按规则替换th:对应的地方显示出服务器上的数据，当运行在静态环境时，html会自动过虑th:开头的属性，显示默认的数据，从而达到两者都能正常运行。
+- 整合SpringBoot
+    ``` bash
+                <dependency>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-thymeleaf</artifactId>
+                </dependency>
+    ```
+如此简单
